@@ -1,0 +1,39 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe, img, h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+:focus{
+    outline: 0;
+}
+body{
+    line-height: 1;
+    color: black;
+    background: white;
+    
+}
+body *{
+    font: 12px verdana,tahoma,sans-serif;
+}
+canvas{
+    border: 5px solid #999;
+    float: left;
+    margin-right: 10px;
+    
+}
+div.legenda h1{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+div#box_score{
+    visibility: hidden;
+    magin-bottom: 10px;
+    
+}

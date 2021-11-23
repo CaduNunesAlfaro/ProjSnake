@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Snake Game CADU </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css"  href="_css/default.css"/>
+        <script type="text/javascript" src="_js/snake.js"></script>
+    </head>
+    <body>
+        <img id="imagem" src="imagem.jpg" style="display:none">
+        <img id="estrela" src="estrela.png" style="display:none">
+         <img id="cobra" src="cobra.jpg" style="display:none">
+        
+        <div id="container">
+            <canvas id="canvas" width="1200" height="720">
+                Seu browser não suporta o Canvas.
+            </canvas>
+            <div id="box_score">
+                <h1><span id="pontos">0</span>&nbsp;pontos</h1>
+            </div>
+            <div class="legenda">
+                <h1>Comandos</h1>
+                <p><span class="texto">I</span> - Iniciar</p>
+                <p><span class="texto">P</span> - Pausar</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
